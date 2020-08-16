@@ -29,16 +29,17 @@
 .banner-social{
         margin: 20px 0px 0px 0px;
         height: 140px;
-        background-color: $main;      
+        background-color: $main;  
+        position: relative;    
 
-    &--contenu{
-
-    }
     &--banner-title{
         font-size: $card-desc;
-        text-align: left;
+        text-align: center;
         font-weight: normal;
         margin-bottom: 0px;
+        position: absolute;
+        left: 15px;
+        bottom: 10px
     }   
 }
 

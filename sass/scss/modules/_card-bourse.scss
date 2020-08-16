@@ -1,5 +1,10 @@
 .card-bourse{
-    @extend .card;
+    min-height:150px;
+    margin:10px;
+    background-color: rgba($purple,0.5);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     &--big-title{
         font-size: $card-desc;
@@ -15,12 +20,12 @@
     &--contenu{
         background-color: #fff;
         margin: 0px 20px 0 20px;
-        height: 140px;
+        height: 100px;
     }
     
 }
 @media (max-width: 999px) {
-    .card {
+    .news {
         padding-top:25%;
     }
 

@@ -137,6 +137,11 @@ li {
   justify-content: space-between;
   padding: 8vh;
 }
+@media (max-width: 999px) {
+  #header .container {
+    width: unset;
+  }
+}
 
 #main .main-bloc {
   width: 90%;
@@ -222,7 +227,7 @@ li {
   border-bottom: 2px solid #ffffff;
 }
 
-.card, .card-social, .banner, .card-inscription, .card-bourse, .card-doc, .card-annonce, .card-with-text {
+.card, .card-social, .banner, .card-inscription, .card-doc, .card-annonce, .card-with-text {
   min-height: 350px;
   margin: 10px;
   background-color: rgba(111, 74, 142, 0.5);
@@ -253,7 +258,7 @@ li {
 }
 
 @media (max-width: 999px) {
-  .card, .card-social, .banner, .card-inscription, .card-bourse, .card-doc, .card-annonce, .card-with-text {
+  .card, .card-social, .banner, .card-inscription, .card-doc, .card-annonce, .card-with-text {
     padding-top: 25%;
   }
 }
@@ -296,7 +301,7 @@ li {
 }
 
 @media (max-width: 999px) {
-  .card, .card-social, .banner, .card-inscription, .card-bourse, .card-doc, .card-with-text, .card-annonce {
+  .card, .card-social, .banner, .card-inscription, .card-doc, .card-with-text, .card-annonce {
     padding-top: 25%;
   }
 }
@@ -308,9 +313,17 @@ li {
 }
 
 @media (max-width: 999px) {
-  .card, .card-social, .banner, .card-inscription, .card-bourse, .card-with-text, .card-annonce, .card-doc {
+  .card, .card-social, .banner, .card-inscription, .card-with-text, .card-annonce, .card-doc {
     padding-top: 25%;
   }
+}
+.card-bourse {
+  min-height: 150px;
+  margin: 10px;
+  background-color: rgba(111, 74, 142, 0.5);
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .card-bourse--big-title {
   font-size: 1.2rem;
@@ -326,11 +339,11 @@ li {
 .card-bourse--contenu {
   background-color: #fff;
   margin: 0px 20px 0 20px;
-  height: 140px;
+  height: 100px;
 }
 
 @media (max-width: 999px) {
-  .card, .card-social, .banner, .card-inscription, .card-with-text, .card-annonce, .card-doc, .card-bourse {
+  .news {
     padding-top: 25%;
   }
 }
@@ -359,7 +372,7 @@ li {
 }
 
 @media (max-width: 999px) {
-  .card, .card-social, .banner, .card-with-text, .card-annonce, .card-doc, .card-bourse, .card-inscription {
+  .card, .card-social, .banner, .card-with-text, .card-annonce, .card-doc, .card-inscription {
     padding-top: 25%;
   }
 }
@@ -415,12 +428,16 @@ li {
   margin: 20px 0px 0px 0px;
   height: 140px;
   background-color: #bbbba7;
+  position: relative;
 }
 .banner-social--banner-title {
   font-size: 1.2rem;
-  text-align: left;
+  text-align: center;
   font-weight: normal;
   margin-bottom: 0px;
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
 }
 
 .card-social-footer {

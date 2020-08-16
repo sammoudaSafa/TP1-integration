@@ -1,7 +1,5 @@
 .card-with-text {
     @extend .card;
-
-
     &--title{
         font-size: $card-desc;
         padding: 20px;

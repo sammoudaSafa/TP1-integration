@@ -11,6 +11,10 @@
         flex-direction: row no-wrap;
         justify-content: space-between;
         padding: 8vh;
+        @media (max-width:999px)
+        {
+            width:unset;
+        }
     }
 }
 #main{   
