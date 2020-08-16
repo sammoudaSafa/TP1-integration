@@ -1,0 +1,666 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+@import url(href="https://fonts.googleapis.com/css2?family=Rasa:wght@300;400;500;600;700&display=swap");
+@import url(href="https://fonts.googleapis.com/css2?family=Rasa:wght@300;400;500;600;700&display=swap");
+@import url(href="https://fonts.googleapis.com/css2?family=Rasa:wght@300;400;500;600;700&display=swap");
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select, textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+td:not([align]), th:not([align]) {
+  text-align: left;
+}
+
+h1 {
+  font-family: "Rasa", serif;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: "Rasa", serif;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "Rasa", serif;
+  font-size: 1.25rem;
+}
+
+a {
+  color: #6e2e70;
+}
+a:hover {
+  color: white;
+}
+
+button {
+  height: 60px;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #BE5683;
+  border: 1px solid;
+  cursor: pointer;
+}
+button:hover {
+  font-weight: bold;
+}
+
+body {
+  font-family: "Rasa", serif;
+  font-size: 1.25rem;
+  background-color: #ffffff;
+}
+
+input {
+  border-width: 0.2px;
+  width: 90%;
+  padding: 20px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  background-color: #FFD5CD;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+li {
+  text-decoration: none;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+/**
+* Font size media queries
+*/
+@media all and (min-width: 1000px) {
+  .h1 {
+    font-size: 4rem;
+  }
+
+  .h2 {
+    font-size: 3rem;
+  }
+}
+#header {
+  background-color: #6F4A8E;
+}
+#header .container {
+  height: 200px;
+  width: 1020px;
+  margin: auto;
+  display: flex;
+  flex-direction: row no-wrap;
+  justify-content: space-between;
+  padding: 8vh;
+}
+
+#main .main-bloc {
+  width: 90%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+#footer {
+  background-color: #6F4A8E;
+}
+#footer .container {
+  height: 200px;
+  width: 1020px;
+  margin: auto;
+  display: flex;
+  flex-direction: row no-wrap;
+  justify-content: space-between;
+  padding: 10vh;
+}
+
+.col {
+  flex: 1 1 100%;
+  position: relative;
+}
+.col--halves {
+  flex: 1 1 50%;
+}
+.col--quarters {
+  flex: 1 1 25%;
+}
+.col--thirds {
+  flex: 1 1 33.33%;
+}
+
+.flex-grid {
+  position: relative;
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (max-width: 1000px) {
+  .flex-grid,
+.col {
+    display: block;
+  }
+  .flex-grid .col,
+.col .col {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+}
+.nav {
+  background-color: #6F4A8E;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-family: "Rasa", serif;
+  font-size: 1.1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.nav--item {
+  color: #FFD5CD;
+  display: block;
+  padding: 25px;
+  background-color: #aea9ca;
+  box-shadow: 2px 2px #aea9ca;
+  text-decoration: none;
+}
+.nav--item:hover {
+  background-color: #ffffff;
+  color: #6e2e70;
+  box-shadow: 2px 2px #b9b9b9;
+  padding-top: 40px;
+}
+.nav--item.is-active {
+  display: block;
+  font-weight: bold;
+  background-color: #6e2e70;
+  border-bottom: 2px solid #ffffff;
+}
+
+.card, .card-social, .banner, .card-doc, .news {
+  min-height: 350px;
+  margin: 10px;
+  background-color: rgba(111, 74, 142, 0.5);
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card--title {
+  font-size: 1.2rem;
+  padding: 30px;
+  font-weight: bold;
+}
+.card--main {
+  text-align: center;
+  background-color: #bbbba7;
+}
+.card--bouton {
+  margin: 30px 10px;
+  width: 200px;
+  height: 150px;
+  vertical-align: middle;
+  font-size: 1.25rem;
+  background-color: #FFE78F;
+  color: #ffffff;
+}
+.card--bouton:hover {
+  color: white;
+}
+
+@media (max-width: 999px) {
+  .news {
+    padding-top: 25%;
+  }
+}
+.news--cat {
+  position: absolute;
+  top: 20px;
+}
+.news--date {
+  position: absolute;
+  padding: 5px 75px 5px 5px;
+  text-align: right;
+  top: 20px;
+  right: 0;
+}
+.news--titles {
+  margin-top: 25%;
+  max-width: 45%;
+  text-align: right;
+}
+.news--content {
+  text-align: left;
+}
+.news--more {
+  padding: 20px;
+  text-align: right;
+}
+
+@media (max-width: 999px) {
+  .news {
+    padding-top: 25%;
+  }
+}
+.card, .card-social, .banner, .card-doc, .news {
+  min-height: 350px;
+  margin: 10px;
+  background-color: rgba(111, 74, 142, 0.5);
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card--title {
+  font-size: 1.2rem;
+  padding: 30px;
+  font-weight: bold;
+}
+.card--main {
+  text-align: center;
+  background-color: #bbbba7;
+}
+.card--bouton {
+  margin: 30px 10px;
+  width: 200px;
+  height: 150px;
+  vertical-align: middle;
+  font-size: 1.25rem;
+  background-color: #FFE78F;
+  color: #ffffff;
+}
+.card--bouton:hover {
+  color: white;
+}
+
+@media (max-width: 999px) {
+  .news {
+    padding-top: 25%;
+  }
+}
+.card-with-text {
+  min-height: 550px;
+  position: relative;
+  margin: 20px 5px 0px 5px;
+  background-color: rgba(111, 74, 142, 0.5);
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-with-text--title {
+  font-size: 1.2rem;
+  padding: 20px;
+  font-weight: bold;
+}
+.card-with-text--main {
+  padding: 0px 20px 0px 20px;
+}
+.card-with-text--signature {
+  text-align: end;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+@media (max-width: 999px) {
+  .news {
+    padding-top: 25%;
+  }
+}
+.card-annonce {
+  min-height: 250px;
+  margin: 10px;
+  background-color: rgba(111, 74, 142, 0.5);
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-annonce--big-title {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+}
+.card-annonce--second-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.card-annonce--description {
+  text-align: center;
+  font-size: 62px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+@media (max-width: 999px) {
+  .news {
+    padding-top: 25%;
+  }
+}
+.card-doc--big-title {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+}
+
+@media (max-width: 999px) {
+  .card, .card-social, .banner, .news, .card-doc {
+    padding-top: 25%;
+  }
+}
+.card-bourse {
+  min-height: 250px;
+  margin: 10px;
+  background-color: rgba(111, 74, 142, 0.5);
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-bourse--big-title {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+}
+.card-bourse--second-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.card-bourse--contenu {
+  background-color: #fff;
+  margin: 0px 20px 0 20px;
+  height: 140px;
+}
+
+@media (max-width: 999px) {
+  .news {
+    padding-top: 25%;
+  }
+}
+.card-inscription {
+  min-height: 250px;
+  margin: 10px;
+  background-color: rgba(111, 74, 142, 0.5);
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-inscription--big-title {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+}
+.card-inscription--input {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.card-inscription--inscription-buton {
+  font-size: 32px;
+  padding: 20px;
+  margin-left: 25px;
+  border: none;
+  width: 90%;
+  background-color: #c4c4c4;
+  height: 60px;
+  color: #fff;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+@media (max-width: 999px) {
+  .news {
+    padding-top: 25%;
+  }
+}
+.banner--big-title {
+  padding: 1rem;
+  text-align: left;
+  font-size: 4rem;
+  padding: 30px;
+  font-weight: bold;
+  position: absolute;
+  left: 15px;
+  bottom: 25px;
+}
+.banner--second-title {
+  font-size: 22px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+@media (max-width: 999px) {
+  .banner {
+    padding-top: 10%;
+  }
+}
+.card-social--big-title {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+}
+.card-social--imagesholder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0;
+}
+.card-social--image {
+  border: 1px solid red;
+  width: 90px;
+  height: 90px;
+  padding-top: 20px;
+  flex-basis: 20%;
+  margin: 1%;
+}
+
+.banner-social {
+  margin: 20px 0px 0px 0px;
+  height: 140px;
+  background-color: #bbbba7;
+}
+.banner-social--banner-title {
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+.card-social-footer {
+  background-color: #808063;
+}
+.card-social-footer--title {
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: normal;
+  padding: 20px;
+}
+.card-social-footer--texte {
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: normal;
+  padding: 20px;
+}
+
+@media (max-width: 999px) {
+  .imagesholder {
+    display: block;
+  }
+}
+.is-error {
+  color: red;
+  background-color: #bb60be;
+}
+
+.is-warning {
+  color: orange;
+  background-color: #ffd280;
+}
+
+.is-active {
+  background-color: #f55;
+}
+
+h1 {
+  font-family: "Rasa", serif;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: "Rasa", serif;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "Rasa", serif;
+  font-size: 1.25rem;
+}
+
+a {
+  color: #6e2e70;
+}
+a:hover {
+  color: white;
+}
+
+button {
+  height: 60px;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #BE5683;
+  border: 1px solid;
+  cursor: pointer;
+}
+button:hover {
+  font-weight: bold;
+}
+
+body {
+  font-family: "Rasa", serif;
+  font-size: 1.25rem;
+  background-color: #ffffff;
+}
+
+input {
+  border-width: 0.2px;
+  width: 90%;
+  padding: 20px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  background-color: #FFD5CD;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+li {
+  text-decoration: none;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+/**
+* Font size media queries
+*/
+@media all and (min-width: 1000px) {
+  .h1 {
+    font-size: 4rem;
+  }
+
+  .h2 {
+    font-size: 3rem;
+  }
+}
+.card, .news, .card-doc, .banner, .card-social {
+  min-height: 350px;
+  margin: 10px;
+  background-color: rgba(111, 74, 142, 0.5);
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card--title {
+  font-size: 1.2rem;
+  padding: 30px;
+  font-weight: bold;
+}
+.card--main {
+  text-align: center;
+  background-color: #bbbba7;
+}
+.card--main-bouton {
+  margin: 30px 10px;
+  width: 200px;
+  height: 150px;
+  vertical-align: middle;
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@media (max-width: 999px) {
+  .news {
+    padding-top: 25%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

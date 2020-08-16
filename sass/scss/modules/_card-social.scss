@@ -1,0 +1,66 @@
+.card-social{
+   @extend .card;
+
+   &--big-title{
+    font-size: $card-desc;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+}
+    &--imagesholder{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px 0
+        
+    }
+    &--image{
+    border: 1px solid red;
+    width: 90px;
+    height: 90px;
+    padding-top: 20px;
+    flex-basis: 20%;
+    margin: 1%;
+ }
+ 
+}
+.banner-social{
+        margin: 20px 0px 0px 0px;
+        height: 140px;
+        background-color: $main;      
+
+    &--contenu{
+
+    }
+    &--banner-title{
+        font-size: $card-desc;
+        text-align: left;
+        font-weight: normal;
+        margin-bottom: 0px;
+    }   
+}
+
+.card-social-footer{
+   background-color:darken($main,25%);
+
+   &--title{
+       font-size: $card-desc;
+       text-align: left;
+       font-weight: normal;
+       padding:20px
+   }
+   &--texte{
+    font-size: $card-desc;
+    text-align: left;
+    font-weight: normal;
+    padding:  20px;
+   }
+}
+@media (max-width: 999px) {
+    .imagesholder {
+        display:block;
+    }
+
+}

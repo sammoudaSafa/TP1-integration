@@ -1,0 +1,32 @@
+.card-bourse{
+    min-height:250px;
+    margin:10px;
+    background-color: rgba($purple,0.5);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &--big-title{
+        font-size: $card-desc;
+        text-align: center;
+        padding: 30px;
+        font-weight: bold;
+    }
+    &--second-title{
+        text-align: center;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    &--contenu{
+        background-color: #fff;
+        margin: 0px 20px 0 20px;
+        height: 140px;
+    }
+    
+}
+@media (max-width: 999px) {
+    .news {
+        padding-top:25%;
+    }
+
+}

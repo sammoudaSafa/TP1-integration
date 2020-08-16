@@ -1,0 +1,33 @@
+.card-annonce{
+    min-height:250px;
+    margin:10px;
+    background-color: rgba($purple,0.5);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &--big-title{
+        font-size: $card-desc;
+        text-align: center;
+        padding: 30px;
+        font-weight: bold;
+    }
+    &--second-title{
+        text-align: center;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    &--description{
+        text-align: center;
+        font-size: 62px;
+        padding-top: 30px;
+        font-weight: bold;
+    }
+    
+}
+@media (max-width: 999px) {
+    .news {
+        padding-top:25%;
+    }
+
+}

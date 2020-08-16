@@ -1,0 +1,37 @@
+$container:400px;
+@import url(href="https://fonts.googleapis.com/css2?family=Rasa:wght@300;400;500;600;700&display=swap");
+$rasa: 'Rasa', serif;
+$fonts: 'Rasa' sans-serif;
+$subtitle-fonts: $rasa;
+$title-fonts: $rasa;
+
+// Font sizes
+$logo:5rem;
+$h1: 4rem;
+$h2: 2rem;
+$h3: 1.25rem;
+$card-desc:1.2rem;
+$base-size: 1.25rem; // 12px
+$category: 1.3rem;
+$links-size: 1.1rem;
+$listitem:1.25rem;
+$buton-text: 1.25rem;
+
+$base-padding: 1rem; //12px
+
+
+// Colors 
+$links:rgb(110, 46, 112);
+$purple:#6F4A8E;
+$lightblue:#93B5E1;
+$light-gray:#aea9ca;
+$item:#FFD5CD;
+// $dark-gray:darken($gray,25%);
+$black:#000000;
+$white:#ffffff;
+$drab: #393939;
+$btn-text: #ffffff;
+$main:#bbbba7;
+$buton:#FFE78F;
+$login-btn: #BE5683;
+$input:#FFE4E4;

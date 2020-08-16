@@ -1,0 +1,39 @@
+.card-inscription{
+    min-height:250px;
+    margin:10px;
+    background-color: rgba($purple,0.5);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &--big-title{
+        font-size: $card-desc;
+        text-align: center;
+        padding: 30px;
+        font-weight: bold;
+    }
+    &--input{
+        text-align: center;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    &--inscription-buton{
+        font-size: 32px;
+        padding: 20px;
+        margin-left: 25px;
+        border: none;
+        width: 90%;
+        background-color: #c4c4c4;
+        height: 60px;
+        color: #fff;
+        margin-bottom: 25px;
+        cursor: pointer;
+        
+}
+}
+@media (max-width: 999px) {
+    .news {
+        padding-top:25%;
+    }
+
+}

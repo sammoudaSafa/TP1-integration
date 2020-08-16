@@ -1,0 +1,33 @@
+.card-with-text {
+    min-height:550px;
+    position: relative;
+    margin: 20px 5px 0px 5px;
+    background-color: rgba($purple,0.5);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    &--title{
+        font-size: $card-desc;
+        padding: 20px;
+        font-weight: bold;
+    }
+    &--main{
+        padding: 0px 20px 0px 20px;
+    }
+    &--signature{
+        text-align: end;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 30px;
+
+    }
+    
+}
+@media (max-width: 999px) {
+    .news {
+        padding-top:25%;
+    }
+
+}
