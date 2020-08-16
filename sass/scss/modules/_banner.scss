@@ -1,27 +1,25 @@
 .banner{
     @extend .card;
 
+    position: relative;
    
     &--big-title{
         padding: $base-padding;
-        text-align: left;
-        font-size: $h1;
-        padding: 30px;
-        font-weight: bold;
+        font-size: $h2;
+        font-weight: 600;
         position: absolute;
         left: 15px;
         bottom: 25px;
         
     }
     &--second-title{
-        font-size: 22px;
+        font-size: $h3;
         margin-left: 30px; 
         margin-bottom: 20px; 
-        font-weight: normal;
+        font-weight: 500;
         position: absolute;
-        left: 15px;
+        left: 30px;
         bottom: 15px;
-
     }
     
 }

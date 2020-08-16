@@ -52,17 +52,28 @@ td:not([align]), th:not([align]) {
 
 h1 {
   font-family: "Rasa", serif;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 h2 {
   font-family: "Rasa", serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h3 {
   font-family: "Rasa", serif;
-  font-size: 1.25rem;
+  font-size: 2rem;
+}
+
+h4 {
+  font-family: "Rasa", serif;
+  font-size: 1.75rem;
+}
+
+.logo {
+  font-family: "Rasa", serif;
+  font-size: 4rem;
+  font-weight: 600;
 }
 
 a {
@@ -109,8 +120,9 @@ input {
 
 li {
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-align: center;
+  margin: 5px;
 }
 
 /**
@@ -236,8 +248,8 @@ li {
   background-repeat: no-repeat;
 }
 .card--title {
-  font-size: 1.2rem;
-  padding: 30px;
+  font-size: 1.75rem;
+  padding: 2.25rem;
   font-weight: bold;
 }
 .card--main {
@@ -263,7 +275,7 @@ li {
   }
 }
 .card-with-text--title {
-  font-size: 1.2rem;
+  font-size: 1.75rem;
   padding: 20px;
   font-weight: bold;
 }
@@ -278,12 +290,12 @@ li {
 }
 
 @media (max-width: 999px) {
-  .news {
+  .card, .card-social, .banner, .card-inscription, .card-doc, .card-annonce, .card-with-text {
     padding-top: 25%;
   }
 }
 .card-annonce--big-title {
-  font-size: 1.2rem;
+  font-size: 1.75rem;
   text-align: center;
   padding: 30px;
   font-weight: bold;
@@ -326,7 +338,7 @@ li {
   background-repeat: no-repeat;
 }
 .card-bourse--big-title {
-  font-size: 1.2rem;
+  font-size: 1.75rem;
   text-align: center;
   padding: 30px;
   font-weight: bold;
@@ -339,7 +351,7 @@ li {
 .card-bourse--contenu {
   background-color: #fff;
   margin: 0px 20px 0 20px;
-  height: 100px;
+  height: 60px;
 }
 
 @media (max-width: 999px) {
@@ -348,7 +360,7 @@ li {
   }
 }
 .card-inscription--big-title {
-  font-size: 1.2rem;
+  font-size: 1.75rem;
   text-align: center;
   padding: 30px;
   font-weight: bold;
@@ -376,23 +388,24 @@ li {
     padding-top: 25%;
   }
 }
+.banner {
+  position: relative;
+}
 .banner--big-title {
-  padding: 1rem;
-  text-align: left;
-  font-size: 4rem;
-  padding: 30px;
-  font-weight: bold;
+  padding: 2.25rem;
+  font-size: 2.5rem;
+  font-weight: 600;
   position: absolute;
   left: 15px;
   bottom: 25px;
 }
 .banner--second-title {
-  font-size: 22px;
+  font-size: 2rem;
   margin-left: 30px;
   margin-bottom: 20px;
-  font-weight: normal;
+  font-weight: 500;
   position: absolute;
-  left: 15px;
+  left: 30px;
   bottom: 15px;
 }
 
@@ -402,7 +415,7 @@ li {
   }
 }
 .card-social--big-title {
-  font-size: 1.2rem;
+  font-size: 1.75rem;
   text-align: center;
   padding: 30px;
   font-weight: bold;
@@ -431,7 +444,7 @@ li {
   position: relative;
 }
 .banner-social--banner-title {
-  font-size: 1.2rem;
+  font-size: 1.75rem;
   text-align: center;
   font-weight: normal;
   margin-bottom: 0px;
@@ -444,13 +457,13 @@ li {
   background-color: #808063;
 }
 .card-social-footer--title {
-  font-size: 1.2rem;
+  font-size: 1.75rem;
   text-align: left;
   font-weight: normal;
   padding: 20px;
 }
 .card-social-footer--texte {
-  font-size: 1.2rem;
+  font-size: 1.75rem;
   text-align: left;
   font-weight: normal;
   padding: 20px;
@@ -477,17 +490,28 @@ li {
 
 h1 {
   font-family: "Rasa", serif;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 h2 {
   font-family: "Rasa", serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h3 {
   font-family: "Rasa", serif;
-  font-size: 1.25rem;
+  font-size: 2rem;
+}
+
+h4 {
+  font-family: "Rasa", serif;
+  font-size: 1.75rem;
+}
+
+.logo {
+  font-family: "Rasa", serif;
+  font-size: 4rem;
+  font-weight: 600;
 }
 
 a {
@@ -534,8 +558,9 @@ input {
 
 li {
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-align: center;
+  margin: 5px;
 }
 
 /**

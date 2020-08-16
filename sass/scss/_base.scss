@@ -12,7 +12,16 @@ h3{
 	font-size: $h3;
 
 }
+h4{
+	font-family: $subtitle-fonts;
+	font-size: $h4;	
+}
+.logo{
+	font-family: $title-fonts;
+	font-size: $logo;
+	font-weight: 600;
 
+}
 a {
 	color:$links;
 	&:hover {
@@ -60,6 +69,7 @@ li{
 	text-decoration: none;
 	font-size: $listitem;
 	text-align: center;
+	margin: 5px;
 }
 /**
 * Font size media queries
