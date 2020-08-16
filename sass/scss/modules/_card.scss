@@ -1,5 +1,10 @@
 .card{
-    @extend .card;
+    min-height:350px;
+    margin:10px;
+    background-color: rgba($purple,0.5);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     &--title{
         font-size: $card-desc;
