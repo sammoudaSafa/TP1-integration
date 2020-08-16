@@ -21,13 +21,13 @@
             &:hover{
                 background-color: $white;
                 color:$links;
-                box-shadow: 2px 2px lighten($drab, 50%);
+                box-shadow: 2px 2px lighten($purple, 50%);
                 padding-top: 40px;
             }
             &.is-active{
                 display:block;
                 font-weight: bold;
-                background-color:$links;
+                background-color:$lightblue;
                 border-bottom:2px solid $white;
             }
         

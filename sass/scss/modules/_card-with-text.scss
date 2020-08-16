@@ -1,11 +1,5 @@
 .card-with-text {
-    min-height:550px;
-    position: relative;
-    margin: 20px 5px 0px 5px;
-    background-color: rgba($purple,0.5);
-    box-sizing: border-box;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend .card;
 
 
     &--title{

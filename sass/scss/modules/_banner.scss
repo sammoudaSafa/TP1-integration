@@ -1,7 +1,5 @@
 .banner{
     @extend .card;
-    // position: relative;
-    // margin: 20px 5px 0px 5px;
    
     &--big-title{
         padding: $base-padding;
