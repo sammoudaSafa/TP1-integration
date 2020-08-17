@@ -67,7 +67,7 @@ h3 {
 
 h4 {
   font-family: "Rasa", serif;
-  font-size: 1.75rem;
+  font-size: 1rem;
 }
 
 .logo {
@@ -250,7 +250,7 @@ li {
 .card--title {
   font-size: 1.75rem;
   padding: 2.25rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 .card--main {
   text-align: center;
@@ -276,17 +276,19 @@ li {
 }
 .card-with-text--title {
   font-size: 1.75rem;
-  padding: 20px;
-  font-weight: bold;
+  padding: 2.25rem;
+  font-weight: 500;
 }
 .card-with-text--main {
   padding: 0px 20px 0px 20px;
+  font-size: 1.25rem;
+  font-weight: normal;
 }
 .card-with-text--signature {
   text-align: end;
-  font-size: 20px;
+  font-size: 0.75rem;
   font-weight: bold;
-  padding: 30px;
+  padding: 2.25rem;
 }
 
 @media (max-width: 999px) {
@@ -295,20 +297,21 @@ li {
   }
 }
 .card-annonce--big-title {
-  font-size: 1.75rem;
+  font-size: 2.5rem;
   text-align: center;
-  padding: 30px;
-  font-weight: bold;
+  padding: 2.25rem;
+  font-weight: 500;
 }
 .card-annonce--second-title {
   text-align: center;
-  font-size: 22px;
+  font-size: 1, 5rem;
+  font-weight: 500;
   text-transform: uppercase;
 }
-.card-annonce--description {
+.card-annonce--date {
   text-align: center;
-  font-size: 62px;
-  padding-top: 30px;
+  font-size: 2.5rem;
+  padding-top: 2.25rem;
   font-weight: bold;
 }
 
@@ -318,9 +321,9 @@ li {
   }
 }
 .card-doc--big-title {
-  font-size: 1.3rem;
+  font-size: 2.5rem;
   text-align: center;
-  padding: 30px;
+  padding: 2.25rem;
   font-weight: bold;
 }
 
@@ -340,22 +343,12 @@ li {
 .card-bourse--big-title {
   font-size: 1.75rem;
   text-align: center;
-  padding: 30px;
-  font-weight: bold;
-}
-.card-bourse--second-title {
-  text-align: center;
-  font-size: 22px;
-  text-transform: uppercase;
-}
-.card-bourse--contenu {
-  background-color: #fff;
-  margin: 0px 20px 0 20px;
-  height: 60px;
+  padding: 2.25rem;
+  font-weight: normal;
 }
 
 @media (max-width: 999px) {
-  .news {
+  .card, .card-social, .banner, .card-inscription, .card-with-text, .card-annonce, .card-doc {
     padding-top: 25%;
   }
 }
@@ -505,7 +498,7 @@ h3 {
 
 h4 {
   font-family: "Rasa", serif;
-  font-size: 1.75rem;
+  font-size: 1rem;
 }
 
 .logo {

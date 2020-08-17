@@ -2,9 +2,9 @@
 @extend .card;
 
     &--big-title{
-        font-size: $category;
+        font-size:$card-bigger-title;
         text-align: center;
-        padding: 30px;
+        padding: $base-padding;
         font-weight: bold;
     }
     

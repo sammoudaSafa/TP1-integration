@@ -2,20 +2,21 @@
     @extend .card;
 
     &--big-title{
-        font-size: $card-desc;
+        font-size: $card-bigger-title;
         text-align: center;
-        padding: 30px;
-        font-weight: bold;
+        padding: $base-padding;
+        font-weight: 500;
     }
     &--second-title{
         text-align: center;
-        font-size: 22px;
+        font-size: $card-semi-big-tittle;
+        font-weight: 500;
         text-transform: uppercase;
     }
-    &--description{
+    &--date{
         text-align: center;
-        font-size: 62px;
-        padding-top: 30px;
+        font-size: $card-bigger-title;
+        padding-top: $base-padding;
         font-weight: bold;
     }
     

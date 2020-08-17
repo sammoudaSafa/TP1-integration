@@ -10,23 +10,12 @@
     &--big-title{
         font-size: $card-desc;
         text-align: center;
-        padding: 30px;
-        font-weight: bold;
-    }
-    &--second-title{
-        text-align: center;
-        font-size: 22px;
-        text-transform: uppercase;
-    }
-    &--contenu{
-        background-color: #fff;
-        margin: 0px 20px 0 20px;
-        height: 60px;
-    }
-    
+        padding:$base-padding ;
+        font-weight: normal;
+    }   
 }
 @media (max-width: 999px) {
-    .news {
+    .card {
         padding-top:25%;
     }
 
