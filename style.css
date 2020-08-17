@@ -52,7 +52,7 @@ td:not([align]), th:not([align]) {
 
 h1 {
   font-family: "Rasa", serif;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -86,13 +86,11 @@ a:hover {
 button {
   height: 60px;
   padding: 20px;
+  font-size: 1.25rem;
   color: #ffffff;
   background-color: #BE5683;
   border: 1px solid;
   cursor: pointer;
-}
-button:hover {
-  font-weight: bold;
 }
 
 body {
@@ -108,19 +106,13 @@ input {
   margin-left: 25px;
   margin-bottom: 25px;
   background-color: #FFD5CD;
-}
-
-.pull-left {
-  float: left;
-}
-
-.pull-right {
-  float: right;
+  color: #000000;
 }
 
 li {
   text-decoration: none;
   font-size: 1rem;
+  font-weight: normal;
   text-align: center;
   margin: 5px;
 }
@@ -258,15 +250,17 @@ li {
 }
 .card--bouton {
   margin: 30px 10px;
-  width: 200px;
+  width: 180px;
   height: 150px;
   vertical-align: middle;
   font-size: 1.25rem;
   background-color: #FFE78F;
   color: #ffffff;
+  cursor: pointer;
 }
 .card--bouton:hover {
-  color: white;
+  font-weight: bold;
+  background-color: #cc7b9e;
 }
 
 @media (max-width: 999px) {
@@ -360,7 +354,7 @@ li {
 .card-inscription--big-title {
   font-size: 1.25rem;
   text-align: center;
-  padding: 30px;
+  padding: 2.25rem;
   font-weight: bold;
 }
 .card-inscription--input {
@@ -368,17 +362,21 @@ li {
   font-size: 22px;
   text-transform: uppercase;
 }
-.card-inscription--inscription-buton {
-  font-size: 32px;
+.card-inscription--submit-buton {
+  font-size: 1.25rem;
   padding: 20px;
   margin-left: 25px;
   border: none;
   width: 90%;
-  background-color: #c4c4c4;
+  background-color: #BE5683;
   height: 60px;
   color: #fff;
   margin-bottom: 25px;
   cursor: pointer;
+}
+.card-inscription--submit-buton:hover {
+  font-weight: bold;
+  background-color: #cc7b9e;
 }
 
 @media (max-width: 999px) {
@@ -483,12 +481,13 @@ li {
 }
 
 .is-active {
-  background-color: #f55;
+  color: #aea9ca;
+  border: 1px solid;
 }
 
 h1 {
   font-family: "Rasa", serif;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -522,13 +521,11 @@ a:hover {
 button {
   height: 60px;
   padding: 20px;
+  font-size: 1.25rem;
   color: #ffffff;
   background-color: #BE5683;
   border: 1px solid;
   cursor: pointer;
-}
-button:hover {
-  font-weight: bold;
 }
 
 body {
@@ -544,19 +541,13 @@ input {
   margin-left: 25px;
   margin-bottom: 25px;
   background-color: #FFD5CD;
-}
-
-.pull-left {
-  float: left;
-}
-
-.pull-right {
-  float: right;
+  color: #000000;
 }
 
 li {
   text-decoration: none;
   font-size: 1rem;
+  font-weight: normal;
   text-align: center;
   margin: 5px;
 }

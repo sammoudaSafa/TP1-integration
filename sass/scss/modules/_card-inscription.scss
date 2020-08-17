@@ -4,7 +4,7 @@
     &--big-title{
         font-size: $base-size;
         text-align: center;
-        padding: 30px;
+        padding: $base-padding;
         font-weight: bold;
     }
     &--input{
@@ -12,18 +12,21 @@
         font-size: 22px;
         text-transform: uppercase;
     }
-    &--inscription-buton{
-        font-size: 32px;
+    &--submit-buton{
+        font-size: $buton-text;
         padding: 20px;
         margin-left: 25px;
         border: none;
         width: 90%;
-        background-color: #c4c4c4;
+        background-color:$login-btn;
         height: 60px;
         color: #fff;
         margin-bottom: 25px;
         cursor: pointer;
-        
+        &:hover {
+            font-weight: bold;
+			background-color:lighten($login-btn,10%);
+        }  
 }
 }
 @media (max-width: 999px) {

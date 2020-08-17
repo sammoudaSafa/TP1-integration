@@ -7,13 +7,13 @@ $title-fonts: $rasa;
 
 // Font sizes
 $logo:4rem;
-$h1: 3rem;
+$h1: 2rem;
 $h2: 2.5rem;
 $h3: 2rem;
 $h4:1rem;
 
 $card-desc:1.75rem;
-$base-size: 1.25rem; // 12px
+$base-size: 1.25rem; 
 $base-little-size:0.75rem;
 
 $card-bigger-title: 2.5rem;
@@ -23,7 +23,7 @@ $listitem:1rem;
 $buton-text: 1.25rem;
 $semibold:500;
 
-$base-padding: 2.25rem; //12px
+$base-padding: 2.25rem; 
 
 
 // Colors
@@ -32,10 +32,8 @@ $purple:#6F4A8E;
 $lightblue:#93B5E1;
 $light-gray:#aea9ca;
 $item:#FFD5CD;
-// $dark-gray:darken($gray,25%);
 $black:#000000;
 $white:#ffffff;
-$drab: #393939;
 $btn-text: #ffffff;
 $main:#bbbba7;
 $buton:#FFE78F;
