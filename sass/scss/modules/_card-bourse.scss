@@ -12,7 +12,14 @@
         text-align: center;
         padding:$base-padding ;
         font-weight: normal;
-    }   
+    }
+    
+    &--contenu{
+        background-color: #fff;
+        margin: 0px 20px 0 20px;
+        height: 50%;
+    }
+    
 }
 @media (max-width: 999px) {
     .card {

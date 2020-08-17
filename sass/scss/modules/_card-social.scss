@@ -2,10 +2,10 @@
    @extend .card;
 
    &--big-title{
-    font-size: $card-desc;
+    font-size: $card-bigger-title;
     text-align: center;
-    padding: 30px;
-    font-weight: bold;
+    padding: $base-padding;
+    font-weight: $semibold;
 }
     &--imagesholder{
         display: flex;
@@ -13,13 +13,12 @@
         flex-wrap: wrap;
         justify-content: space-between;
         width: 100%;
-        padding: 10px 0
-        
+        padding: 30px;      
     }
     &--image{
     border: 1px solid red;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     padding-top: 20px;
     flex-basis: 20%;
     margin: 1%;
@@ -32,31 +31,32 @@
         background-color: $main;  
         position: relative;    
 
-    &--banner-title{
-        font-size: $card-desc;
+    &--title{
+        font-size: $base-size;
         text-align: center;
         font-weight: normal;
         margin-bottom: 0px;
         position: absolute;
         left: 15px;
-        bottom: 10px
+        bottom: 10px;
     }   
 }
 
 .card-social-footer{
-   background-color:darken($main,25%);
+   background-color:darken($main,15%);
 
    &--title{
-       font-size: $card-desc;
+       font-size: $base-size;
        text-align: left;
        font-weight: normal;
-       padding:20px
+       padding: 15px 15px 0px 15px;
    }
    &--texte{
-    font-size: $card-desc;
+    font-size: $base-little-size;
     text-align: left;
     font-weight: normal;
-    padding:  20px;
+    padding:0px 15px 15px 15px;
+    
    }
 }
 @media (max-width: 999px) {

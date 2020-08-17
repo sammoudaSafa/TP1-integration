@@ -346,6 +346,11 @@ li {
   padding: 2.25rem;
   font-weight: normal;
 }
+.card-bourse--contenu {
+  background-color: #fff;
+  margin: 0px 20px 0 20px;
+  height: 50%;
+}
 
 @media (max-width: 999px) {
   .card, .card-social, .banner, .card-inscription, .card-with-text, .card-annonce, .card-doc {
@@ -353,7 +358,7 @@ li {
   }
 }
 .card-inscription--big-title {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   text-align: center;
   padding: 30px;
   font-weight: bold;
@@ -408,10 +413,10 @@ li {
   }
 }
 .card-social--big-title {
-  font-size: 1.75rem;
+  font-size: 2.5rem;
   text-align: center;
-  padding: 30px;
-  font-weight: bold;
+  padding: 2.25rem;
+  font-weight: 500;
 }
 .card-social--imagesholder {
   display: flex;
@@ -419,12 +424,12 @@ li {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  padding: 10px 0;
+  padding: 30px;
 }
 .card-social--image {
   border: 1px solid red;
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   padding-top: 20px;
   flex-basis: 20%;
   margin: 1%;
@@ -436,8 +441,8 @@ li {
   background-color: #bbbba7;
   position: relative;
 }
-.banner-social--banner-title {
-  font-size: 1.75rem;
+.banner-social--title {
+  font-size: 1.25rem;
   text-align: center;
   font-weight: normal;
   margin-bottom: 0px;
@@ -447,19 +452,19 @@ li {
 }
 
 .card-social-footer {
-  background-color: #808063;
+  background-color: #9a9a7c;
 }
 .card-social-footer--title {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   text-align: left;
   font-weight: normal;
-  padding: 20px;
+  padding: 15px 15px 0px 15px;
 }
 .card-social-footer--texte {
-  font-size: 1.75rem;
+  font-size: 0.75rem;
   text-align: left;
   font-weight: normal;
-  padding: 20px;
+  padding: 0px 15px 15px 15px;
 }
 
 @media (max-width: 999px) {

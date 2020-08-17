@@ -5,12 +5,12 @@
         font-size: $card-bigger-title;
         text-align: center;
         padding: $base-padding;
-        font-weight: 500;
+        font-weight: $semibold;
     }
     &--second-title{
         text-align: center;
         font-size: $card-semi-big-tittle;
-        font-weight: 500;
+        font-weight: $semibold;
         text-transform: uppercase;
     }
     &--date{

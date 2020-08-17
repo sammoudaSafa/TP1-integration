@@ -2,7 +2,7 @@
     @extend .card;
 
     &--big-title{
-        font-size: $card-desc;
+        font-size: $base-size;
         text-align: center;
         padding: 30px;
         font-weight: bold;
